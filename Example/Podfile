@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StandardKit_Example' do
+  pod 'StandardKit', :path => '../'
+
+  target 'StandardKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
