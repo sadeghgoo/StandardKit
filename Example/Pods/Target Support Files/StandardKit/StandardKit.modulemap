@@ -1,0 +1,6 @@
+framework module StandardKit {
+  umbrella header "StandardKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

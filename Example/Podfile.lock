@@ -1,0 +1,16 @@
+PODS:
+  - StandardKit (0.1.0)
+
+DEPENDENCIES:
+  - StandardKit (from `../`)
+
+EXTERNAL SOURCES:
+  StandardKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StandardKit: cb8280095a1255cd42c7dcb429e95994132bf3b4
+
+PODFILE CHECKSUM: 3245648dfe94a48ca759514e6b6bef62163de098
+
+COCOAPODS: 1.9.3
