@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StandardKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A library to endofrce standard style in swift.'
   s.homepage         = 'https://github.com/sadeghgoo/StandardKit.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
