@@ -10,23 +10,31 @@ import Foundation
 import UIKit
 
 /// A standard repesentation for  customize border of view
-public protocol StandardBorderableView {
-    func setBorderColor(_ value: UIColor)
-    func setborderWidth(_ value: CGFloat)
+public protocol StandardBorderableViewBehavior {
+    var borderColor: CGColor? { get set }
+    var borderWidth: CGFloat { get set }
     
 }
 
-public extension StandardBorderableView where Self: UIView {
+public extension StandardBorderableViewBehavior where Self: UIView {
     
-    /// Set border color to view
-    /// - Parameter value: The color of layer border
-    func setBorderColor(_ value: UIColor) {
-        layer.borderColor = value.cgColor
+    /// Set border color to view layer.
+    var borderColor: CGColor? {
+        get {
+            return layer.borderColor
+        }
+        set {
+            layer.borderColor = newValue
+        }
     }
-    /// Set border width
-    /// - Parameter value: The width of layer border
-    func setborderWidth(_ value: CGFloat) {
-        layer.borderWidth = value
+    /// Set border width to view layer.
+    var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
     }
 
 }
