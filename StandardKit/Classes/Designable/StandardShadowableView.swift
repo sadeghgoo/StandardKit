@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol StandardShadowableView {
+public protocol StandardShadowableViewBehavior {
     
     func setShadowColor(_ color: UIColor)
     func setShadowOpacity(_ value: Float)
@@ -19,7 +19,7 @@ public protocol StandardShadowableView {
     
 }
 
-public extension StandardShadowableView where Self: UIView {
+public extension StandardShadowableViewBehavior where Self: UIView {
     
     func setShadowColor(_ color: UIColor) {
         layer.shadowColor = color.cgColor

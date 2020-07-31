@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-public protocol StandardGradinetableView {
+public protocol StandardGradinetableViewBehavior {
     func setGradient(color: UIColor..., location: [NSNumber], startPoint: CGPoint, endPoint: CGPoint)
 }
 
-public extension StandardGradinetableView where Self: UIView {
+public extension StandardGradinetableViewBehavior where Self: UIView {
     
     private var gradintLayer: CAGradientLayer {
         let layer = CAGradientLayer()

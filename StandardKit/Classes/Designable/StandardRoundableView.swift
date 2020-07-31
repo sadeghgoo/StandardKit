@@ -9,25 +9,16 @@
 import Foundation
 import UIKit
 
-public protocol StandardRoundableView {
+public protocol StandardRoundableViewBehavior {
 
-    func makeCircularView()
     func roundCorners(_ value: CGFloat, corners: corner...)
     var cornerRadius: CGFloat { get set }
 }
 
-public extension StandardRoundableView where Self: UIView {
+public extension StandardRoundableViewBehavior where Self: UIView {
     
     typealias corner = CACorner
     
-    /// Force view to fully circular
-    func makeCircularView() {
-        let validSize = frame.width > frame.height ? frame.height : frame.width
-        frame.size.width = validSize
-        frame.size.height = validSize
-        layer.cornerRadius = frame.height / 2
-    }
-
     /// Set corner radius to view, The radius to use when drawing rounded corners for the layer’s background.
     var cornerRadius: CGFloat {
         get {

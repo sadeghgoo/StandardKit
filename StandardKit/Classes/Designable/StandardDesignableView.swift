@@ -7,7 +7,7 @@ import Foundation
 import UIKit
 
 /// A standard  representation  that inherit from all standard customizable view
-public protocol StandardDesignableView: StandardBorderableView, StandardRoundableView, StandardShadowableView, StandardGradinetableView {
+public protocol StandardDesignableView: StandardBorderableViewBehavior, StandardRoundableViewBehavior, StandardShadowableViewBehavior, StandardGradinetableViewBehavior {
     
 }
 
