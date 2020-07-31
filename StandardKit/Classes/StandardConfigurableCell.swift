@@ -7,14 +7,14 @@
 import Foundation
 
 /// A standard representation for configue cell
-public protocol StandardConfigurableCell {
+public protocol StandardConfigurableCellBehavior {
     
     associatedtype Model
     func configue(_ model: Model)
     func configureTest(_ model: Model)
     
 }
-public extension StandardConfigurableCell {
+public extension StandardConfigurableCellBehavior {
     
     func configureTest(_ model: Model) {
         

@@ -8,14 +8,14 @@ import Foundation
 import UIKit
 
 /// A standard repesentation for manage cell Name
-public protocol StandardMangableCellName {
+public protocol StandardCellNameBehavior {
     
     static var cellIdentifier: String { get }
     static var cellNibName: String { get }
     static var cellNib: UINib { get }
 }
 
-public extension StandardMangableCellName {
+public extension StandardCellNameBehavior {
     static var cellNib: UINib {
         let nib = UINib(nibName: cellNibName, bundle: nil)
         return nib
@@ -23,13 +23,13 @@ public extension StandardMangableCellName {
 }
 
 /// A standard view name manager adopt this to your name manager class
-public protocol StandardManagbleViewName {
+public protocol StandardViewNameBehavior {
     
     static var storyBoardIdentifier: String { get }
     static var storyBoardName: String { get }
     static var storyBoardBundle: Bundle? { get }
 }
-public extension StandardManagbleViewName {
+public extension StandardViewNameBehavior {
     static var storyBoardBundle: Bundle? {
         return nil
     }

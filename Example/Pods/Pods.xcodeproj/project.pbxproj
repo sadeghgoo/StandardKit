@@ -10,17 +10,13 @@
 		0072F444DFEA1CF8F048EA70249BB27B /* Pods-StandardKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7397A069F8B6BEC8A45DFFF2A2D077 /* Pods-StandardKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47421E962160D44099F827F2B4B836F1 /* Pods-StandardKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB13E8E8D7B1DB513A0800143292BBA /* Pods-StandardKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6948207C8ADCF563F496E45AF558D5D5 /* StandardKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5453D7B09DA6C09CCDBD347E2B34F447 /* StandardKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7261B687248CE28E005F931C /* StandardScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B676248CE28E005F931C /* StandardScrollableView.swift */; };
+		725BF8A024D4AD7700034D29 /* StandardViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF89F24D4AD7700034D29 /* StandardViewControllerInterface.swift */; };
 		7261B688248CE28E005F931C /* StandardManagableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B677248CE28E005F931C /* StandardManagableName.swift */; };
-		7261B689248CE28E005F931C /* StandardNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B678248CE28E005F931C /* StandardNavigation.swift */; };
 		7261B68B248CE28E005F931C /* StandardBorderableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B67B248CE28E005F931C /* StandardBorderableView.swift */; };
 		7261B68C248CE28E005F931C /* StandardRoundableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B67C248CE28E005F931C /* StandardRoundableView.swift */; };
 		7261B68D248CE28E005F931C /* StandardGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B67D248CE28E005F931C /* StandardGradientView.swift */; };
 		7261B68E248CE28E005F931C /* StandardShadowableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B67E248CE28E005F931C /* StandardShadowableView.swift */; };
 		7261B68F248CE28E005F931C /* StandardDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B67F248CE28E005F931C /* StandardDesignableView.swift */; };
-		7261B690248CE28E005F931C /* StandardRelodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B680248CE28E005F931C /* StandardRelodableView.swift */; };
-		7261B691248CE28E005F931C /* StandardLodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B681248CE28E005F931C /* StandardLodableView.swift */; };
-		7261B692248CE28E005F931C /* StandardStaticTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B682248CE28E005F931C /* StandardStaticTableView.swift */; };
 		7261B694248CE28E005F931C /* StandardPositionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B684248CE28E005F931C /* StandardPositionalView.swift */; };
 		7261B695248CE28E005F931C /* StandardLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B685248CE28E005F931C /* StandardLifeCycle.swift */; };
 		7261B696248CE28E005F931C /* StandardConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7261B686248CE28E005F931C /* StandardConfigurableCell.swift */; };
@@ -67,17 +63,13 @@
 		70CD607ABA5652B317EB4DAE19DEF013 /* Pods-StandardKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandardKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7138B644E5077D2E1A63D734A9F5F9A6 /* Pods-StandardKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StandardKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		717AC90C71FFBD359B63CA63E3D7DA66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7261B676248CE28E005F931C /* StandardScrollableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardScrollableView.swift; sourceTree = "<group>"; };
+		725BF89F24D4AD7700034D29 /* StandardViewControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardViewControllerInterface.swift; sourceTree = "<group>"; };
 		7261B677248CE28E005F931C /* StandardManagableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardManagableName.swift; sourceTree = "<group>"; };
-		7261B678248CE28E005F931C /* StandardNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardNavigation.swift; sourceTree = "<group>"; };
 		7261B67B248CE28E005F931C /* StandardBorderableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardBorderableView.swift; sourceTree = "<group>"; };
 		7261B67C248CE28E005F931C /* StandardRoundableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardRoundableView.swift; sourceTree = "<group>"; };
 		7261B67D248CE28E005F931C /* StandardGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardGradientView.swift; sourceTree = "<group>"; };
 		7261B67E248CE28E005F931C /* StandardShadowableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardShadowableView.swift; sourceTree = "<group>"; };
 		7261B67F248CE28E005F931C /* StandardDesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardDesignableView.swift; sourceTree = "<group>"; };
-		7261B680248CE28E005F931C /* StandardRelodableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardRelodableView.swift; sourceTree = "<group>"; };
-		7261B681248CE28E005F931C /* StandardLodableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardLodableView.swift; sourceTree = "<group>"; };
-		7261B682248CE28E005F931C /* StandardStaticTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardStaticTableView.swift; sourceTree = "<group>"; };
 		7261B684248CE28E005F931C /* StandardPositionalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardPositionalView.swift; sourceTree = "<group>"; };
 		7261B685248CE28E005F931C /* StandardLifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardLifeCycle.swift; sourceTree = "<group>"; };
 		7261B686248CE28E005F931C /* StandardConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardConfigurableCell.swift; sourceTree = "<group>"; };
@@ -199,15 +191,11 @@
 			isa = PBXGroup;
 			children = (
 				7261B67A248CE28E005F931C /* Designable */,
-				7261B676248CE28E005F931C /* StandardScrollableView.swift */,
 				7261B677248CE28E005F931C /* StandardManagableName.swift */,
-				7261B678248CE28E005F931C /* StandardNavigation.swift */,
-				7261B680248CE28E005F931C /* StandardRelodableView.swift */,
-				7261B681248CE28E005F931C /* StandardLodableView.swift */,
-				7261B682248CE28E005F931C /* StandardStaticTableView.swift */,
 				7261B684248CE28E005F931C /* StandardPositionalView.swift */,
 				7261B685248CE28E005F931C /* StandardLifeCycle.swift */,
 				7261B686248CE28E005F931C /* StandardConfigurableCell.swift */,
+				725BF89F24D4AD7700034D29 /* StandardViewControllerInterface.swift */,
 			);
 			name = Classes;
 			path = StandardKit/Classes;
@@ -439,12 +427,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7261B690248CE28E005F931C /* StandardRelodableView.swift in Sources */,
-				7261B689248CE28E005F931C /* StandardNavigation.swift in Sources */,
+				725BF8A024D4AD7700034D29 /* StandardViewControllerInterface.swift in Sources */,
 				7261B68F248CE28E005F931C /* StandardDesignableView.swift in Sources */,
 				7261B68D248CE28E005F931C /* StandardGradientView.swift in Sources */,
-				7261B692248CE28E005F931C /* StandardStaticTableView.swift in Sources */,
-				7261B687248CE28E005F931C /* StandardScrollableView.swift in Sources */,
 				7261B68B248CE28E005F931C /* StandardBorderableView.swift in Sources */,
 				7261B688248CE28E005F931C /* StandardManagableName.swift in Sources */,
 				7261B68E248CE28E005F931C /* StandardShadowableView.swift in Sources */,
@@ -453,7 +438,6 @@
 				7261B696248CE28E005F931C /* StandardConfigurableCell.swift in Sources */,
 				7261B695248CE28E005F931C /* StandardLifeCycle.swift in Sources */,
 				C4EAF3E67F8D9FD9E1DD63EED81D30B0 /* Pods-StandardKit_Example-dummy.m in Sources */,
-				7261B691248CE28E005F931C /* StandardLodableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

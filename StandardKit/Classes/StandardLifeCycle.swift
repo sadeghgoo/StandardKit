@@ -6,7 +6,7 @@
 import Foundation
 
 /// A standard type that consist of all swift standard view life cycle
-public protocol StandardLifeCycle {
+public protocol StandardLifeCycleInterface {
     
     func viewDidload()
     func viewDidAppear()
@@ -15,7 +15,7 @@ public protocol StandardLifeCycle {
     func viewWillDisappear()
 }
 
-public extension StandardLifeCycle {
+public extension StandardLifeCycleInterface {
 
     func viewDidload() {
         

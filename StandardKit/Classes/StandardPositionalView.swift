@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol StandardPositionalView {
+public protocol StandardPointableViewBehvior {
     
     var topLeft: CGPoint { get }
     var topRight: CGPoint { get }
@@ -22,7 +22,7 @@ public protocol StandardPositionalView {
 }
 
 
-public extension StandardPositionalView where Self: UIView {
+public extension StandardPointableViewBehvior where Self: UIView {
     
     var topLeft: CGPoint {
         return CGPoint(x: frame.minX, y: frame.minY)
