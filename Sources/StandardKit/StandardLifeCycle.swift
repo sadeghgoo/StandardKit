@@ -6,18 +6,18 @@
 import Foundation
 
 /// A standard type that consist of all swift standard view life cycle
-public protocol StandardViewControllerLifeCycleInterface {
+public protocol StandardLifeCycleInterface {
     
-    func viewDidLoad()
+    func viewDidload()
     func viewDidAppear()
     func viewDidDisappear()
     func viewWillAppear()
     func viewWillDisappear()
 }
 
-public extension StandardViewControllerLifeCycleInterface {
+public extension StandardLifeCycleInterface {
 
-    func viewDidLoad() {
+    func viewDidload() {
         
     }
     
